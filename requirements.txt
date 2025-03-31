@@ -64,3 +64,7 @@ pycountry==24.6.1
 jellyfish
 aiofiles
 geopy
+flask
+flask_cors
+aiohttp
+
