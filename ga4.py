@@ -137,7 +137,7 @@ def GA4_4(question: str):
     origin = match.group(2).strip()
     
     # Create the URL for the directions API
-    mapquest_api_key = os.getenv("MAPQUEST_API_KEY")
+    mapquest_api_key = os.getenv("GROQ_API_KEY")
     # ... rest of the function ...
 
 def get_country_code(country_name):
