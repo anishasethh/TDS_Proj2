@@ -213,7 +213,7 @@ def GA1_13(question):
         print("No email found")
     github_replace_text(
         token=token,
-        repo="anishasethh/",
+        repo="anishasethh/TDS",
         file_path="email.json",
         pattern=r'"\s*email\s*"\s*:\s*"[^"]+"',
         replacement=f'"email": "{email}"'
